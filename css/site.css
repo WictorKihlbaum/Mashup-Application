@@ -1,0 +1,102 @@
+/* CSS Document */
+
+body { 
+	margin:0; 
+	padding:0; 
+}
+
+#topic {
+	text-align: center;
+	padding: 0;
+	color: #4183D7;
+}
+
+#map { 
+	height: 500px;
+	max-width: 960px;
+	margin: 15px auto;
+}
+
+#priority-list {
+	margin: 10px auto;
+	background-color: #E4F1FE;
+	border-radius: 15px;
+	max-width: 930px;
+	padding: 15px;	
+}
+
+#priority-topic {
+	color: #3498DB;
+	font-size: 16px;	
+	margin: 5px 5px 10px 5px;
+}
+
+.marker-image {
+	width: 25px;
+	height: 25px;	
+}
+
+#filter-field {
+	margin: 0 auto;
+	padding: 15px;
+	max-width: 930px;
+	background-color: #E4F1FE;
+	border-radius: 15px;	
+}
+
+#filter-topic {
+	color: #3498DB;
+	font-size: 16px;	
+	margin: 0 5px;
+}
+
+#filter-form {
+	margin: 0;	
+}
+
+.filter-button-span {
+	margin: 5px;
+	padding: 5px 10px;
+	border-radius: 7px;
+	background-color: #59ABE3;
+	color: #FFFFFF;
+	display: inline-block;	
+}
+
+.filter-button {
+	margin: -2px 5px 0 0;	
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+#traffic-list {
+	margin: 15px auto;
+	background-color: #E4F1FE;
+	border-radius: 15px;
+	padding: 25px;
+	max-width: 910px;
+	max-height: 500px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+table th {
+	white-space: nowrap;
+}
+
+table td,
+table th {
+   padding: 5px 10px;
+}
+
+table tbody tr td:nth-child(5n+1) {
+	white-space: nowrap;
+}
+
+footer {
+	max-width: 960px;
+	margin: 5px auto;	
+	text-align: center;
+	color: #4183D7;
+}
